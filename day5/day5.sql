@@ -4,7 +4,7 @@ create view CUST_VW as select EmpId, EmpName, Manager from employee;
 
 /*Update CUST_VW by changing the Job=’Clerk’ to ‘Senior Clerk’*/
 
-alter table employee modify job varchar2(20);
+alter table employee modify job varchar2(20); 
 update CUST_VW set Job='Senior Clerk' where Job='Clerk';
 
 /*Delete from CUST_VW the Employee-Kevin*/
