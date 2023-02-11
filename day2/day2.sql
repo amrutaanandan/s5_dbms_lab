@@ -29,7 +29,7 @@ create table Department
   Location varchar(10),
   primary key(DeptNo));
   
- insert into Department values(‘D001’, ‘DeptA’, ‘A block’);
+ insert into Department values('D001', 'DeptA', 'A block');
  insert into Department values('D002', 'DeptB', 'B block');
  insert into Department values('D003', 'DeptC', 'C block');
  insert into Department values('D004', 'DeptD', 'D block');
