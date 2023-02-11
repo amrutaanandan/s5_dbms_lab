@@ -49,3 +49,19 @@ select count(distinct(deptname)) from department;
 /*Display the hire date of all employees in the following format:Friday, 11th August, 2017*/
 
 select to_char(hiredate, 'DY, DDth MONTH, YYYY') from employee;
+
+/*Calculate the total of Baldue from the Client table*/
+
+select sum(baldue) from client;
+
+/*Count the total records in the Employee table*/
+
+select count(*) from employee;
+
+/*Find the minimum and maximum Balance due from the Client table*/
+
+select min(baldue), max(baldue) from client;
+
+/*Find the average salary in the Employee table*/
+
+select trunc(avg(salary)) from employee;
