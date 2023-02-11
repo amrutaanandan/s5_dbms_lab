@@ -1,3 +1,4 @@
+<h1>Day 5 - Views, Built-in Functions and Aggregate Functions</h1>
 <h3>7. Implement the Creation of Views</h3>
 <p>
     Create a view CUST_VW of the Employee table with the following columns:
@@ -33,4 +34,14 @@
     <li>Find the number of departments available</li>
     <li>Display the hire date of all employees in the following format:Friday, 11th August, 2017</li>
    </ol>
+ </p>
+ 
+ <h3>9. Implementation of various aggregate functions in SQL</h3>
+ <p>
+    <ol>
+        <li>Calculate the total of Baldue from the Client table</li>
+        <li>Count the total records in the Employee table</li>
+        <li>Find the minimum and maximum Balance due from the Client table</li>
+        <li>Find the average salary in the Employee table</li>
+    </ol>
  </p>
