@@ -2,8 +2,8 @@
 <h2>Performing DML commands like Insertion, Deletion, Modifying, Altering, and Updating records based on the following conditions*</h2>
   <p>a.  Create and insert the following values in the Employee table</p>
   
-EmpId | EmpName | Job | Manager | DeptNo | HireDate | Salary Comm
-| :------: | :------: | :------: | :------: | :------: | :------: | :------: |
+EmpId | EmpName | Job | Manager | DeptNo | HireDate | Salary | Comm
+| :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
 E0001 | Abey | Tester | E0004 | D004 | 15/12/12 | 30000 | 500
 E0002 | Jesto | Analyst | E0001 | D002 | 24/04/11 | 25000 | 650
 E0003 | Adarsh | Clerk | E0004 | D004 | 10/01/13 | 15000 | 500
