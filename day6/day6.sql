@@ -8,7 +8,7 @@ select deptno, max(salary) from employee group by deptno order by deptno;
 
 /*Display the minimum salary of all departments except D001*/
 
-select deptno, min(salary) from employee where deptno != 'D001' group by deptno order by deptno;
+select deptno, min(salary) from employee having deptno != 'D001' group by deptno order by deptno;
 
 /*Display all the DeptNo available with the Department and Employee table*/
 
